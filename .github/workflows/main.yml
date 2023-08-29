@@ -11,11 +11,9 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: 'print content ls Before action checkout'
-        run: ls
 
       - uses: actions/checkout@v3 
 
-      - name: 'print content ls After action checkout'
-        run: ls  
+      - name: 'login to docker hub'
+        run: docker login --username mostafaelsheref --password dckr_pat_Qgvg_79k6gZ2NvwCXeqbUuGBtt8   
 
