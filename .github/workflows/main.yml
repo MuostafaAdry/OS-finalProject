@@ -15,5 +15,5 @@ jobs:
         run: pwd
 
       - name: 'print'
-        run: acho mostafa  
+        run: echo mostafa  
 
